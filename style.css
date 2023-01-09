@@ -142,3 +142,72 @@ button {
 .itemized-pic {
   width: 45vw;
 }
+
+/* itemized page */
+
+.install-flex {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+.install-header {
+  background-color: #1f2833;
+  padding: 10%;
+}
+
+/* How to page */
+.how-to-header {
+  text-align: center;
+  margin: auto;
+  font-size: 28px;
+  background-color: #0b0c10;
+}
+
+.header-text {
+  color: #66fcf1;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.how-to-section {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.how-to-section p {
+  width: 30%;
+  font-size: 24px;
+}
+
+/* install page */
+
+.step-2 {
+  margin: 5% 0;
+}
+
+.step-3 {
+  margin: 5% 0;
+}
+
+.step-4 {
+  margin-bottom: 5%;
+}
+
+.step-2-right {
+  width: 45%;
+  height: 50%;
+}
+
+.step-3-img {
+  margin: auto;
+  width: 65%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 768px){}
