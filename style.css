@@ -1,0 +1,14 @@
+.hero-layout {
+  display: flex;
+}
+
+.hero-right {
+  margin: auto;
+  text-align: center;
+  font-size: 28px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
