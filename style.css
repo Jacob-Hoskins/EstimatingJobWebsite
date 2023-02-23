@@ -12,3 +12,9 @@
   width: 100%;
   height: auto;
 }
+
+.cards-div {
+  position: relative;
+  top: -2rem;
+  height: 10rem;
+}
