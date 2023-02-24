@@ -22,6 +22,11 @@
   height: auto;
 }
 
+.img {
+  width: 50%;
+  height: auto;
+}
+
 .cards-div {
   position: relative;
   top: -2rem;

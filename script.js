@@ -84,6 +84,8 @@ function displayInstallInfo() {
   p_tag_two.classList.add("price-text");
   p_tag_three.classList.add("price-text");
   p_tag_last.classList.add("price-text");
+  img_one.classList.add("img");
+  img_two.classList.add("img");
 
   div.appendChild(h_tag);
   div.appendChild(p_tag_one);
@@ -184,6 +186,9 @@ function displayUseInfo() {
   p_tag_four.classList.add("price-text");
   p_tag_five.classList.add("price-text");
   p_tag_six.classList.add("price-text");
+  img_one.classList.add("img");
+  img_two.classList.add("img");
+  img_three.classList.add("img");
 
   removeAllChildNodes(div);
 
