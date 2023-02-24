@@ -79,6 +79,12 @@ function displayInstallInfo() {
   p_tag_three.innerText = p_stepThree;
   p_tag_last.innerText = p_lastMessage;
 
+  h_tag.classList.add("my-header");
+  p_tag_one.classList.add("price-text");
+  p_tag_two.classList.add("price-text");
+  p_tag_three.classList.add("price-text");
+  p_tag_last.classList.add("price-text");
+
   div.appendChild(h_tag);
   div.appendChild(p_tag_one);
   div.appendChild(p_tag_two);
@@ -167,6 +173,17 @@ function displayUseInfo() {
   p_tag_five.innerText = step_two_p_two;
   h_tag_four.innerText = step_three_h;
   p_tag_six.innerText = step_three_p;
+
+  h_tag_one.classList.add("my-header");
+  h_tag_two.classList.add("my-header");
+  h_tag_three.classList.add("my-header");
+  h_tag_four.classList.add("my-header");
+  p_tag_one.classList.add("price-text");
+  p_tag_two.classList.add("price-text");
+  p_tag_three.classList.add("price-text");
+  p_tag_four.classList.add("price-text");
+  p_tag_five.classList.add("price-text");
+  p_tag_six.classList.add("price-text");
 
   removeAllChildNodes(div);
 
