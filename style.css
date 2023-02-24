@@ -18,3 +18,14 @@
   top: -2rem;
   height: 10rem;
 }
+
+.my-header {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.price-text {
+  text-align: center;
+  margin-bottom: 5rem;
+}
