@@ -23,6 +23,11 @@ function removeAllChildNodes(parent) {
 const div = document.getElementById("info-section");
 
 function displayPriceInfo() {
+  document.getElementById("price-card").style.backgroundColor = "#023844";
+  document.getElementById("wiki-card").style.backgroundColor = "#077F99";
+  document.getElementById("install-card").style.backgroundColor = "#077F99";
+  document.getElementById("use-card").style.backgroundColor = "#077F99";
+
   const price_text =
     "This software aims to be one of the best estimating tools in the construction market. And till this software is up to par it will stay free of charge!";
   const price_header = "Pricing";
@@ -43,6 +48,11 @@ function displayPriceInfo() {
 }
 
 function displayInstallInfo() {
+  document.getElementById("price-card").style.backgroundColor = "#077F99";
+  document.getElementById("wiki-card").style.backgroundColor = "#077F99";
+  document.getElementById("install-card").style.backgroundColor = "#023844";
+  document.getElementById("use-card").style.backgroundColor = "#077F99";
+
   const h_text = "How To Install";
   const h_stepOne_tag = "Step 1";
   const h_stepTwo_tag = "Step 2";
@@ -97,6 +107,11 @@ function displayInstallInfo() {
 }
 
 function displayWikiInfo() {
+  document.getElementById("price-card").style.backgroundColor = "#077F99";
+  document.getElementById("wiki-card").style.backgroundColor = "#023844";
+  document.getElementById("install-card").style.backgroundColor = "#077F99";
+  document.getElementById("use-card").style.backgroundColor = "#077F99";
+
   const h_text = "What's it do";
   const p_text_one =
     "When you estimate a job and figure out all the material you need, all you have to do is type in the name of the item. Let it search and then adjust for quantity. It's as simple as that";
@@ -129,6 +144,11 @@ function displayWikiInfo() {
 }
 
 function displayUseInfo() {
+  document.getElementById("price-card").style.backgroundColor = "#077F99";
+  document.getElementById("wiki-card").style.backgroundColor = "#077F99";
+  document.getElementById("install-card").style.backgroundColor = "#077F99";
+  document.getElementById("use-card").style.backgroundColor = "#023844";
+
   const header = "How To Use";
   const text_one =
     "For the time being there is a few steps to follow when you're using this app.";
