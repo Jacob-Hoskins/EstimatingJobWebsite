@@ -46,3 +46,23 @@
   margin-bottom: 5rem;
   font-family: myFont;
 }
+
+/* Future div */
+.future-div {
+  text-align: center;
+  background-color: #404142;
+  margin-top: 25rem;
+}
+
+.future-header {
+  color: #077f99;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.future-text {
+  padding: 10rem;
+  color: white;
+  font-family: myFont;
+  font-size: 1.2rem;
+}
