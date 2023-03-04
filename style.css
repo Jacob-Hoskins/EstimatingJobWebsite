@@ -51,7 +51,15 @@
 .future-div {
   text-align: center;
   background-color: #404142;
-  margin-top: 25rem;
+  margin-top: 20rem;
+  margin-bottom: 5rem;
+}
+
+.shape {
+  background-color: #077f99;
+  color: #077f99;
+  font-size: 0;
+  padding: 0.3%;
 }
 
 .future-header {
